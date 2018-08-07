@@ -1,5 +1,5 @@
 <template>
-  <transition name="fade" appear tag="div">
+  <transition name="zoom" appear tag="div">
     <li v-bind:class="[message.type, 'message']" v-show="showMessage">
       {{ message.text }}
       <button v-on:click="close">close</button>
